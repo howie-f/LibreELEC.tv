@@ -13,7 +13,6 @@ PKG_PATCH_DIRS="$KODI_VENDOR"
 case $KODI_VENDOR in
   raspberrypi)
     PKG_VERSION="newclock5_18.9-FE-Leia"
-    PKG_SHA256="e389b48aaabf38b1a6c9ebd89587e9e2d745351b74e09a40f9ee12f00acfe5d7"
     PKG_URL="https://github.com/howie-f/xbmc/archive/$PKG_VERSION.tar.gz"
     PKG_SOURCE_NAME="kodi-$KODI_VENDOR-$PKG_VERSION.tar.gz"
     ;;
